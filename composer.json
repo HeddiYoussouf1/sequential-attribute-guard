@@ -1,0 +1,26 @@
+{
+    "name": "heddiyoussouf/sequential-attribute-guard",
+    "description": "A Laravel package that ensures model attribute values follow a specified sequential order during creation or updates.",
+    "autoload": {
+        "psr-4": {
+            "Heddiyoussouf\\SequentialAttributeGuard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HeddiYoussouf1",
+            "email": "heddiyoussouf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Heddiyoussouf\\SequentialAttributeGuard\\SequentialAttributeGuardProvider"
+            ]
+        }
+    }
+}
